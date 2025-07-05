@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-jdh&-il2*3ed76qasy)0n16d4t3s*^@cil%abh_aj)3tt8zqdf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS =  ['neovettersglobal.com/', 'www.neovettersglobal.com', '144.126.230.50']
+ALLOWED_HOSTS = [
+    'neovettersglobal.com',
+    'www.neovettersglobal.com',
+    '144.126.230.50',
+]
 
 
 # Application definition
